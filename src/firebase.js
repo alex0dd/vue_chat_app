@@ -4,7 +4,7 @@ import 'firebase/auth';
 import 'firebase/storage';
 
 
-import * as firebaseConfig from './firebase_config.json';
+import { firebaseConfig } from './firebase_config.js';
 firebase.initializeApp(firebaseConfig)
 
 export const db = firebase.firestore()
